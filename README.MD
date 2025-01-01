@@ -1,4 +1,4 @@
-qBittorrent Scheduler
+# qBittorrent Scheduler
 ********************************
 ### Description:
 This program will launch qBittorrent when a call to the script is made between
