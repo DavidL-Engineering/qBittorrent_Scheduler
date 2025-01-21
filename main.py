@@ -36,7 +36,7 @@ def process_exists(process_name):
 
 
 def main():
-    time_check = is_time_between(time(2,00),time(8,00), datetime.now().time())
+    time_check = is_time_between(time(1,00),time(8,00), datetime.now().time())
 
     if time_check and not(process_exists('qbittorrent.exe')):
         startClient(qbt_path)
