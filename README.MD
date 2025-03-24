@@ -9,5 +9,5 @@ shutdown qBittorrent, ensuring that fastresume data is saved.
 
 ### Requirements:
 - Python (tested on Python `3.11.4`)
-- [qbittorrent-api package](https://qbittorrent-api.readthedocs.io/en/latest/) (tested on `2024.11.71.dev6+gc1006e7`)
+- [qbittorrent-api package](https://qbittorrent-api.readthedocs.io/en/latest/) (tested on `2025.2.0`)
 - A `creds.py` file containing the path to the qBittorrent executable (`qbt_path`), and the username and password for the WebUI (`username`, `password`)
